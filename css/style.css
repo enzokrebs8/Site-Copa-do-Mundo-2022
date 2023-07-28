@@ -15,48 +15,46 @@ body{
 }
 
 h2{
-    color: #990e38;
     font-family: 'Segoe UI Symbol';
     text-align: center;
     font-size: 40px;    
+    color: #990e38;
 }
 
 .desc{
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-.Logo{
+.img-logo{
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .corpo{
     width: 1300px;
     margin: 50px auto 50px;
 }
-
 .grade{
-    display: grid;
-    grid-template-columns: calc(25% - 15px) calc(25% - 15) calc(25% - 15) calc(25% - 15);
     background-color: transparent;
+    display: grid;
+    grid-template-columns: calc(25% - 15px) calc(25% - 15px) calc(25% - 15px) calc(25% - 15px);
     height: 760px;
     grid-gap: 20px 20px;
 }
 
 .chaves{
     background-color: #ffffff;
-    padding: 20px 20px 20px 20px ;
+    padding: 20px 20px 20px 20px;
     border-radius: 25px;
 }
 
 .grupo{
     background-color: transparent;
     padding: 10px 10px 10px 10px;
-
 }
 
 .nomedogrupo{
@@ -75,7 +73,7 @@ h2{
     border-radius: 10px;
 }
 
-.nomedogrupo{
+.nomedopais{
     margin: -40px 30px 0 90px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif ;
 }
